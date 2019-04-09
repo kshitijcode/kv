@@ -1,6 +1,7 @@
+#!/usr/bin/env python
 import requests
 import urlparse
-from client import constants
+import constants
 
 
 class RequestHelper:
