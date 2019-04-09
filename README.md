@@ -15,7 +15,8 @@ client - All the client code resides in the client folder
 
 **Steps to build the project**
 
- Clone the project 
+ Clone the project
+  
  Navigate to the Project Directory
 
  `pip install virtualenv
@@ -27,6 +28,7 @@ client - All the client code resides in the client folder
 
 
 **Start the web service** 
+
 
 
 `./web-service.py
@@ -47,10 +49,12 @@ Set a value :
 Get a Value : 
 
 
+
     `client/client.py get --key 3`
     
 
 Watch Key Store for Changes
+
 
 
     ` client/client.py watch`
