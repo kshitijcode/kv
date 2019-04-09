@@ -9,10 +9,10 @@ This is a simple web service for In Memory Key Value Store.
 Clone the project 
 Navigate to the Project Directory
 
-```pip install virtualenv
-virtualenv env
-source env/bin/activate`
-pip install -r requirements.txt```
+`pip install virtualenv
+ virtualenv env
+ source env/bin/activate
+ pip install -r requirements.txt`
 
 
 
