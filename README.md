@@ -21,13 +21,13 @@ client - All the client code resides in the client folder
 
  Execute the following commands:
  
- `pip install virtualenv
+ `pip install virtualenv`
  
- virtualenv env
+ `virtualenv env`
  
- source env/bin/activate
+ `source env/bin/activate`
  
- pip install -r requirements.txt`
+ `pip install -r requirements.txt`
 
 
 
