@@ -50,13 +50,13 @@ Get a Value :
 
 
 
-    `client/client.py get --key 3`
+    client/client.py get --key 3
     
 
 Watch Key Store for Changes
 
 
 
-    ` client/client.py watch`
+    client/client.py watch
 
     
