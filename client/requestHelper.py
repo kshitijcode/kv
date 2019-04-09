@@ -1,6 +1,6 @@
 import requests
 import urlparse
-import constants
+from client import constants
 
 
 class RequestHelper:
