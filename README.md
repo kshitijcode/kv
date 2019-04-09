@@ -12,7 +12,7 @@ Navigate to the Project Directory
 ```pip install virtualenv
 virtualenv env
 source env/bin/activate`
-pip install -r requirements.txt``
+pip install -r requirements.txt```
 
 
 
