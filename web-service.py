@@ -6,11 +6,13 @@ from flask_restful import Resource, Api
 app = Flask(__name__)
 api = Api(app)
 
+# Initializing Empty DB
 db = {}
 
 
 class SetKeyValueStore(Resource):
 
+    # API Handler for Setting up Values
     def post(self):
         global db
         data = request.get_json()
@@ -25,6 +27,7 @@ class SetKeyValueStore(Resource):
 
 class GetValueFromStore(Resource):
 
+    # API Handler for Fetching Values
     def get(self, key):
 
         global db

@@ -7,9 +7,12 @@ import constants
 class RequestHelper:
 
     def __init__(self):
+        # Helper Class to Interact with the Web Service using Requests Module
         pass
 
     def keyExists(self, key):
+
+        # Check if the key exists in DB
         r = requests.get(constants.ENDPOINT + "fetch/" + key)
 
         if r.status_code != 200:

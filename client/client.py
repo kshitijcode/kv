@@ -15,6 +15,7 @@ value = args.value
 
 requestHelper = RequestHelper()
 
+# Take appropriate method call based upon action variable based from CLI
 if action == "set":
 
     if requestHelper.keyExists(key):
