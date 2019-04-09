@@ -4,11 +4,14 @@ import argparse
 from requestHelper import RequestHelper
 import time
 
+# Parsing values from CLI
 parser = argparse.ArgumentParser()
 parser.add_argument("action", help="Please specify the action")
 parser.add_argument("--key")
 parser.add_argument("--value")
 args = parser.parse_args()
+
+# Fetching necessary values
 action = args.action
 key = args.key
 value = args.value
