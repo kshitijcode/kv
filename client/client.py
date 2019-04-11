@@ -2,7 +2,6 @@
 
 import argparse
 from requestHelper import RequestHelper
-import time
 
 # Parsing values from CLI
 parser = argparse.ArgumentParser()
@@ -34,6 +33,4 @@ elif action == "get":
 
 elif action == "watch":
     print "Watching the Data Store"
-    while 1:
-        requestHelper.fetch("all")
-        time.sleep(2)
+    requestHelper.connectSocket()

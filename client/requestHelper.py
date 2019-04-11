@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import requests
 import urlparse
+import socketio
 import constants
 
 
@@ -37,3 +38,11 @@ class RequestHelper:
     def watch(self, key):
         r = requests.get(constants.ENDPOINT + "fetch/" + key)
         print r.content
+
+    def connectSocket(self):
+        sio = socketio.Client()
+        sio.connect(constants.ENDPOINT)
+
+        @sio.on('value_update')
+        def on_message(data):
+            print("Recently Added Value is" + str(data))
