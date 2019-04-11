@@ -1,7 +1,7 @@
 # kv
-Web Service Based KV Store
+Web Service Based KV Store 
 
-This is a simple web service for In Memory Key Value Store.
+This is a simple web service which uses Flask and in a in Memory Key Value Store.
 
 This project contains two sections: 
 
