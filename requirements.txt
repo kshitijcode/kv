@@ -2,3 +2,4 @@ Flask
 Flask-RestFul
 requests
 flask-socketio
+unittest-xml-reporting

@@ -51,8 +51,17 @@ class GetValueFromStore(Resource):
             return {"Error": "Key Not Found "}, 404
 
 
+class HealthCheck(Resource):
+
+    def get(self):
+        return "OK", 200
+
+    pass
+
+
 api.add_resource(SetKeyValueStore, '/set')
 api.add_resource(GetValueFromStore, '/fetch/<key>')
+api.add_resource(HealthCheck, '/health')
 
 
 @socketio.on('connect')

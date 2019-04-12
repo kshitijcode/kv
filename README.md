@@ -2,13 +2,25 @@
 Web Service Based KV Store 
 
 This is a simple web service which uses Flask and in a in Memory Key Value Store.
+This also used socket.io for watching instant changes to the datastore.
 
-This project contains two sections: 
+
+CI/CD Source Code : https://github.com/kshitijcode/kv-ci
+
+Jenkins Server : http://134.209.10.141:8080
+
+
+This project contains three folders: 
 
 service
 
 
 client - All the client code resides in the client folder
+
+
+
+tests - Consists of all Test code 
+
 
 
 
