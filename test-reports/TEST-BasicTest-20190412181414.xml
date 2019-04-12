@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file=".py" name="BasicTest-20190412181414" skipped="0" tests="1" time="0.005" timestamp="2019-04-12T18:14:14">
+	<testcase classname="BasicTest" file="tests/unit_test.py" line="17" name="test_health" time="0.005" timestamp="2019-04-12T18:14:14">
+		<system-out>
+<![CDATA[<Response streamed [200 OK]>
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

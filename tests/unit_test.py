@@ -1,7 +1,9 @@
-#!/usr/bin/env python
 import unittest
+import sys
+sys.path.insert(0, '/Users/kshitijsharma/grofers')
 import app
 import xmlrunner
+
 
 
 class BasicTest(unittest.TestCase):

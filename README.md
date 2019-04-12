@@ -1,7 +1,8 @@
 # kv
-Web Service Based KV Store 
+Key Value Store  Web Service
 
 This is a simple web service which uses Flask and in a in Memory Key Value Store.
+It can set,update, get and watch for values in realtime.
 This also uses socket.io for watching instant changes to the datastore.
 
 
